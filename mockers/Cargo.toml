@@ -18,3 +18,5 @@ mockers_derive = { version = "0.13.1", path = "../mockers_derive" }
 
 [features]
 debug = ["mockers_derive/debug"]
+unstable = []
+default = ["unstable"]
